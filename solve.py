@@ -52,7 +52,12 @@ def main():
         mode = input("train or solve? -> ")
         if mode == "train":
             da.augument()
-            tr.trainModel()
+            epc = input("epoch(1~9)? -> ")
+            if epc.isdecimal() and 1 <= int(epc) <= 9:
+                tr.trainModel(epc=epc)
+            else:
+                print("epoch=5")
+                tr.trainModel()
         elif mode == "solve":
             solve()
         else:

@@ -42,6 +42,3 @@ def augument():  # 90倍に拡張
     joblib.dump(t, "traindata/t.joblib")
     cv2.waitKey(0)
     cv2.destroyAllWindows()
-
-if __name__ == "__main__":
-    augument()
