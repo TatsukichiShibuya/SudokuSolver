@@ -1,6 +1,6 @@
 # SudokuSolver
 
-## HOW to USE
+## How to use
 1. solve.pyを実行する
 2. "train or solve? -> "に対して、モデルが学習し終わっているならsolve、まだならtrainを入力する
 3. (train)imageの画像が90倍に拡張され、traindataにjoblibで保存される -> epochを選択し学習する
