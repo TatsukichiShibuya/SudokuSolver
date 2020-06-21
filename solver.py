@@ -13,7 +13,7 @@ from keras.optimizers import RMSprop
 from sklearn.model_selection import train_test_split
 
 def dataAugumentation(size):
-    path = "SuDokuNumber/"
+    path = "data/"
     x = []
     t = []
     erode = np.ones((2, 2), np.uint8)
@@ -302,6 +302,10 @@ def captureAndSolve():  # 行列は↓x→y, 座標は↓y→x
     else:
         print("could not open")
 
-#dataAugumentation(23)
-#trainModel(23)
-captureAndSolve()
+def main():
+    #dataAugumentation(23)
+    #trainModel(23)
+    captureAndSolve()
+
+if __name__ == "__main__":
+    main()
