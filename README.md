@@ -9,3 +9,6 @@
 ### image
 * 大きさは32×32にしておく
 * データを作りたいときはsudokuSolverの50行目あたりでnumを保存すれば良い
+
+### 出力画像例
+![answer0](https://user-images.githubusercontent.com/54014820/172532723-2e90a6d6-58a2-48b7-80bb-5fd1c324dbc4.jpg)
